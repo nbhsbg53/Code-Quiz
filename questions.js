@@ -1,56 +1,35 @@
-let questions = [
+var questions = [
     {
-    numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
-    options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
-  },
+        title:"The function and  var are known as?",
+        choices: [ "keywords", "Data Types", "Declaration statements", "Prototype"],
+        answer: "Declaration statements"
+    },
+
     {
-    numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
-  },
+        title:"Which one of the following is the correct way for calling the JavaScript code?",
+        choices: [ "Preprocessor", "Trigering event","RMI","Functions/Method" ],
+        answer:"Functions/Method"
+    },
+
     {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
+        title:"Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal?",
+        choices: ["toExponential","toFixed()","toPrecision","toLocaleString"],
+        answer: "toFixed()"
+    },    
+    
     {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
+        title:"Which of the following number object function returns the value of the number?",
+        choices: ["toString()","valueOf()", "toLocaleString", "toPrecision"],
+        answer: "valueOf()"
+    },
     {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-}]
+        title:" In JavaScript the x===y statement implies that:",
+        choices: [ "Both x and y are equal in value, type and reference address as well.", "Both are x and y are equal in value only.","Both are equal in the value and data type","Both are not same at all."],
+        answer:"Both are equal in the value and data type"
+    },
+    {
+        title:" Commonly used data types DO NOT include?",
+        choices: ["strings", "booleans", "alerts", "numbers"],
+        answer: "alerts"
+    },
+];
